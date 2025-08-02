@@ -32,19 +32,19 @@ int angleToPulse(int angle) {
 }
 
 void Initial_Pos(){
-  pwm.setPWM(RIGHT_ROTATION, 0, angleToPulse(90)); //90
-  pwm.setPWM(RIGHT_HIP, 0, angleToPulse(87));      //87 
-  pwm.setPWM(RIGHT_THIGH, 0, angleToPulse(107));   //109  
-  pwm.setPWM(RIGHT_KNEE, 0, angleToPulse(114));    //114   
-  pwm.setPWM(RIGHT_ANKLE, 0, angleToPulse(95));    //95   
-  pwm.setPWM(RIGHT_FOOT, 0, angleToPulse(85));     //85
+  pwm.setPWM(RIGHT_ROTATION, 0, angleToPulse(90));
+  pwm.setPWM(RIGHT_HIP, 0, angleToPulse(87)); 
+  pwm.setPWM(RIGHT_THIGH, 0, angleToPulse(107)); 
+  pwm.setPWM(RIGHT_KNEE, 0, angleToPulse(114));  
+  pwm.setPWM(RIGHT_ANKLE, 0, angleToPulse(95));   
+  pwm.setPWM(RIGHT_FOOT, 0, angleToPulse(85));
 
-  pwm.setPWM(LEFT_ROTATION, 0, angleToPulse(76)); //76
-  pwm.setPWM(LEFT_HIP, 0, angleToPulse(82));      //83 
-  pwm.setPWM(LEFT_THIGH, 0, angleToPulse(72));    //70 
-  pwm.setPWM(LEFT_KNEE, 0, angleToPulse(65));     //65 
-  pwm.setPWM(LEFT_ANKLE, 0, angleToPulse(75));    //75  
-  pwm.setPWM(LEFT_FOOT, 0, angleToPulse(89));     //89 
+  pwm.setPWM(LEFT_ROTATION, 0, angleToPulse(76));
+  pwm.setPWM(LEFT_HIP, 0, angleToPulse(82));
+  pwm.setPWM(LEFT_THIGH, 0, angleToPulse(72));
+  pwm.setPWM(LEFT_KNEE, 0, angleToPulse(65));
+  pwm.setPWM(LEFT_ANKLE, 0, angleToPulse(75));
+  pwm.setPWM(LEFT_FOOT, 0, angleToPulse(89));
 
 }
 
@@ -399,3 +399,4 @@ void Backward_6() {
 
 
 //________________________________________________________________________________________________________________________________________________________
+
